@@ -1,4 +1,2 @@
 streamlit
-transformers
-torch
-huggingface-hub
+textblob
