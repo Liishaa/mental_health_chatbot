@@ -1,0 +1,14 @@
+{
+  "positive": [
+    { "title": "Ways to Build on Positive Emotions", "url": "https://www.example.org/positive" }
+  ],
+  "neutral": [
+    { "title": "Everyday Mindfulness Tips",       "url": "https://www.example.org/mindfulness" }
+  ],
+  "negative": [
+    { "title": "Crisis Text Line – Free 24/7 Support",    "url": "https://www.crisistextline.org/" },
+    { "title": "NIMH: Coping with Stress",                "url": "https://www.nimh.nih.gov/health/topics/coping-with-stress" }
+  ]
+}
+
+  

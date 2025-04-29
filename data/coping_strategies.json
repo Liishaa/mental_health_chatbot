@@ -1,0 +1,17 @@
+{
+  "positive": [
+    "Keep a gratitude journal to reflect on the good moments.",
+    "Share your positivity with someone today!",
+    "Try setting a new goal or challenge for yourself."
+  ],
+  "neutral": [
+    "Take a few deep breaths and stretch your body.",
+    "Go for a short walk to reset your mind.",
+    "Try listening to music or doing a 5-minute mindfulness exercise."
+  ],
+  "negative": [
+    "Try grounding techniques like 5-4-3-2-1 to reconnect with the present.",
+    "Talk to a trusted friend or write your thoughts in a journal.",
+    "Consider practicing box breathing (inhale 4s, hold 4s, exhale 4s, hold 4s)."
+  ]
+}
