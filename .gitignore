@@ -1,5 +1,13 @@
+# Python virtual environments
 venv/
+
+# Build / dist artifacts
 build/
 dist/
+
+# Bytecode caches
+__pycache__/
 *.py[cod]
+
+# IDE settings
 .vscode/
