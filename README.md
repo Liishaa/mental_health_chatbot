@@ -1,7 +1,5 @@
 # 🧠 EmpathAI - Mental Health Chatbot
 
-![EmpathAI Logo](https://raw.githubusercontent.com/Liishaa/mental_health_chatbot/main/.github/logo.png)
-
 A simple yet powerful Streamlit-based chatbot designed to offer empathetic support by detecting user sentiment and providing tailored coping strategies and curated mental health resources.
 
 ---
@@ -21,7 +19,11 @@ A simple yet powerful Streamlit-based chatbot designed to offer empathetic suppo
 - [License](#-license)
 
 ---
+## 🌐 Live Demo
 
+👉 **[Launch the App](https://empathai-chatbot.streamlit.app)**
+
+---
 ## 🚀 Features
 
 - 🧠 **Sentiment Detection:** Understands user emotions using TextBlob sentiment analysis.  
@@ -29,12 +31,6 @@ A simple yet powerful Streamlit-based chatbot designed to offer empathetic suppo
 - 📚 **Coping Strategies:** Offers context-specific techniques for stress relief and mental wellness.  
 - 🔗 **Helpful Resources:** Links to trusted websites based on how the user is feeling.  
 - ♻️ **Reset Option:** Start a fresh conversation anytime with a click.  
-
----
-
-## 📺 Demo
-Try it live on [Streamlit Cloud](https://mentalhealthchatbot-l.streamlit.app).
-
 ---
 
 ## 🛠️ Tech Stack
@@ -47,17 +43,26 @@ Try it live on [Streamlit Cloud](https://mentalhealthchatbot-l.streamlit.app).
 | JSON      | Configurable strategies/resources    |
 
 ---
+## 📚 Acknowledgements
 
-## 🏁 Getting Started
+- [Streamlit](https://streamlit.io/) for making web apps easy and intuitive.
+- [TextBlob](https://textblob.readthedocs.io/) for simple sentiment analysis.
+- [Crisis Text Line](https://www.crisistextline.org/) and [NIMH](https://www.nimh.nih.gov) for mental health resources.
 
-### Prerequisites
+---
 
-- Python 3.8+  
-- `git` command line
+## 👤 Author
 
-### Installation
+**Lisha Hassan Vasudev**  
+🎓 MS in Computer and Information Science  
+📫 [GitHub Profile](https://github.com/Liishaa)
 
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/Liishaa/mental_health_chatbot.git
-   cd mental_health_chatbot
+---
+
+## 📜 License
+
+This project was developed as part of an academic course requirement and is intended for educational purposes only.  
+All rights reserved © 2025 Lisha Hassan Vasudev.
+
+
+
