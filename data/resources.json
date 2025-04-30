@@ -1,14 +1,47 @@
 {
   "positive": [
-    { "title": "Ways to Build on Positive Emotions", "url": "https://www.example.org/positive" }
+    {
+      "title": "5-Minute Journal App",
+      "url": "https://five-minute-journal.com/"
+    },
+    { 
+      "title": "Ways to Build on Positive Emotions", 
+      "url": "https://www.example.org/positive" 
+    }
+    
   ],
   "neutral": [
-    { "title": "Everyday Mindfulness Tips",       "url": "https://www.example.org/mindfulness" }
+    {
+      "title": "Calm Guided Breathing",
+      "url": "https://www.calm.com/breathing"
+    },
+    {
+      "title": "Headspace Basics",
+      "url": "https://www.headspace.com/meditation/basics"
+    },
+    { 
+      "title": "Everyday Mindfulness Tips",
+      "url": "https://www.example.org/mindfulness" 
+    }
+
   ],
   "negative": [
-    { "title": "Crisis Text Line – Free 24/7 Support",    "url": "https://www.crisistextline.org/" },
-    { "title": "NIMH: Coping with Stress",                "url": "https://www.nimh.nih.gov/health/topics/coping-with-stress" }
+    {
+      "title": "SAMHSA National Helpline",
+      "url": "https://www.samhsa.gov/find-help/national-helpline"
+    },
+    {
+      "title": "Mind UK – Emotional Wellbeing Tips",
+      "url": "https://www.mind.org.uk/information-support/"
+    },
+    {
+       "title": "Crisis Text Line – Free 24/7 Support",    
+      "url": "https://www.crisistextline.org/" 
+    },
+    { 
+      "title": "NIMH: Coping with Stress",                
+      "url": "https://www.nimh.nih.gov/health/topics/coping-with-stress" 
+    }
+
   ]
 }
-
-  

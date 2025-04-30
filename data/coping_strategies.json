@@ -1,17 +1,44 @@
 {
   "positive": [
-    "Keep a gratitude journal to reflect on the good moments.",
-    "Share your positivity with someone today!",
-    "Try setting a new goal or challenge for yourself."
+    {
+      "text": "Share your good news with a friend or family member.",
+      "category": "Connection",
+      "duration": "5m",
+      "tags": ["social", "gratitude"]
+    },
+    {
+      "text": "Write down three things you're grateful for today.",
+      "category": "Journaling",
+      "duration": "5m",
+      "tags": ["gratitude", "reflection"]
+    }
   ],
   "neutral": [
-    "Take a few deep breaths and stretch your body.",
-    "Go for a short walk to reset your mind.",
-    "Try listening to music or doing a 5-minute mindfulness exercise."
+    {
+      "text": "Take a short walk to reset your mind.",
+      "category": "Movement",
+      "duration": "10m",
+      "tags": ["exercise", "fresh air"]
+    },
+    {
+      "text": "Practice 4-7-8 breathing: inhale 4s, hold 7s, exhale 8s.",
+      "category": "Breathing",
+      "duration": "3m",
+      "tags": ["relaxation"]
+    }
   ],
   "negative": [
-    "Try grounding techniques like 5-4-3-2-1 to reconnect with the present.",
-    "Talk to a trusted friend or write your thoughts in a journal.",
-    "Consider practicing box breathing (inhale 4s, hold 4s, exhale 4s, hold 4s)."
+    {
+      "text": "Name five things you can see, four you can touch, three you can hear…",
+      "category": "Grounding",
+      "duration": "5m",
+      "tags": ["anxiety", "present moment"]
+    },
+    {
+      "text": "Try progressive muscle relaxation: tense each muscle group for 5s, then release.",
+      "category": "Relaxation",
+      "duration": "10m",
+      "tags": ["stress relief"]
+    }
   ]
 }
