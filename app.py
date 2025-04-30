@@ -56,34 +56,23 @@ if submitted and user_input:
         ("EmpathAI", f"**Emotion detected:** *{sentiment}*")
     )
 
-    # coping strategy
-        # ─── Coping strategy ────────────────────────────────────────────────────
+    # ─── formatted coping strategies ────────────────────────────────────────
     if choice in ("Coping Strategy", "Both"):
-        strat = random.choice(
-            coping_strategies.get(sentiment, ["Take a deep breath."])
-        )
-
-        # if your JSON entry is a dict, pull out its fields…
-        if isinstance(strat, dict):
-            text     = strat.get("text", "")
-            category = strat.get("category", None)
-            duration = strat.get("duration", None)
-            tags     = strat.get("tags", [])
-
-            # format the main advice in bold
-            msg = f"- 💡 **{text}**\n"
-            # then list any metadata inline
-            meta = []
-            if category: meta.append(f"Category: {category}")
-            if duration: meta.append(f"Duration: {duration}")
-            if tags:     meta.append(f"Tags: {', '.join(tags)}")
-            if meta:
-                msg += "    _" + "; ".join(meta) + "_"
+        raw = random.choice(coping_strategies.get(sentiment, ["Take a deep breath."]))
+        if isinstance(raw, dict):
+            text     = raw["text"]
+            category = raw.get("category", "General")
+            duration = raw.get("duration", "")
+            tags     = ", ".join(raw.get("tags", []))
+            formatted = (
+                f"💡 **{text}**  \n"
+                f"   • Category: *{category}*  \n"
+                f"   • Duration: {duration}  \n"
+                f"   • Tags: {tags}"
+            )
         else:
-            # fallback for plain‐string entries
-            msg = f"- 💡 {strat}"
-
-        st.session_state.chat.append(("EmpathAI", msg))
+            formatted = f"💡 *{raw}*"
+        st.session_state.chat.append(("EmpathAI", formatted))
 
     # resources
     if choice in ("Resources", "Both"):
