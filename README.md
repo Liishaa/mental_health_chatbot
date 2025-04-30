@@ -8,7 +8,7 @@ Built with [Streamlit](https://streamlit.io/), the chatbot runs entirely in the 
 
 ## 🌐 Live Demo
 
-👉 **[Launch the App]= https://empathai-chatbot.streamlit.app/ **
+👉 **[Launch the App]= https://empathai-chatbot.streamlit.app/**
 ---
 
 ## 💡 Features
