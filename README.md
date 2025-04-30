@@ -1,22 +1,9 @@
 # 🧠 EmpathAI - Mental Health Chatbot
 
-A simple yet powerful Streamlit-based chatbot designed to offer empathetic support by detecting user sentiment and providing tailored coping strategies and curated mental health resources.
+EmpathAI is a lightweight, AI-powered chatbot designed to offer emotional support through simple, empathetic conversations. It detects the user's emotional tone using natural language processing and provides appropriate coping strategies and mental health resources — all in real-time.
 
 ---
-
-## 📖 Table of Contents
-
-- [Features](#-features)
-- [Demo](#-demo)
-- [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Data](#-data)
-- [Configuration](#-configuration)
-- [Enhancements](#-enhancements)
-- [Contributing](#-contributing)
-- [License](#-license)
+Built with [Streamlit](https://streamlit.io/), the chatbot runs entirely in the browser and requires no installation, making it instantly accessible to users seeking support.
 
 ---
 ## 🌐 Live Demo
