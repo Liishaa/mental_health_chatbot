@@ -33,9 +33,6 @@ A simple yet powerful Streamlit-based chatbot designed to offer empathetic suppo
 ---
 
 ## 📺 Demo
-
-![Screenshot of App](https://raw.githubusercontent.com/Liishaa/mental_health_chatbot/main/.github/demo.png)
-
 Try it live on [Streamlit Cloud](https://mentalhealthchatbot-l.streamlit.app).
 
 ---
